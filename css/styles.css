@@ -1009,6 +1009,7 @@ header .container,
 
     .team-list,
     .portfolio-list {
+        display: block;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
