@@ -49,5 +49,11 @@
     <symbol id="icon-Frame-3" viewBox="0 0 32 32">
       <path fill="#fff" d="m32 2.667-32 15 10.227 3.156L26 8.5 14.002 21.988l.01.003-.012-.003v7.345l5.735-5.576L27 25.999l5-23.333z" style="fill:var(--color1, #fff)"/>
     </symbol>
+    <symbol id="icon-menu" viewBox="0 0 32 32">
+      <path fill="#e5e5e5" d="M0 0h32v32H0z" style="fill:var(--color1, #e5e5e5)"/>
+      <path fill="#fff" d="M-373.333-21.333H53.334V9600h-426.667z" style="fill:var(--color2, #fff)"/>
+      <path fill="#fff" d="M-373.333-21.333H53.334v74.667h-426.667v-74.667z" style="fill:var(--color2, #fff)"/>
+      <path fill="#2f2f37" d="M4.8 8a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 1 1 0 3.2H6.4A1.6 1.6 0 0 1 4.8 8zm0 8a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 1 1 0 3.2H6.4A1.6 1.6 0 0 1 4.8 16zm0 8a1.6 1.6 0 0 1 1.6-1.6h19.2a1.6 1.6 0 1 1 0 3.2H6.4A1.6 1.6 0 0 1 4.8 24z" style="fill:var(--color3, #2f2f37)"/>
+    </symbol>
   </defs>
 </svg>
