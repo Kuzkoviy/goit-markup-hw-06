@@ -365,19 +365,6 @@ footer {
     display: flex;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .logo-link {
     margin-bottom: 16px;
 }
@@ -1076,4 +1063,105 @@ footer {
     }
   }
 
+@media screen and (min-width: 1158px) {
+    .header-menu,
+    .mobile-menu {
+        display: none;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .nav-list,
+    .icon-box {
+        display: flex;
+    }
+
+    .address {
+        display: block;
+    }
+
+    .header>.container {
+        height: auto;
+    }
+
+    .description-title {
+        font-size: 56px;
+        margin-bottom: 48px;
+    }
+
+    .description-section {
+        padding: 188px 0;
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+    url(../images/people-office-1158.jpg);
+    }
+
+    .description-section,
+    .team-main-list,
+    .portfolio-list,
+    .footer-container,
+    .bottom-form {
+        flex-direction: row;
+    }
+
+    .description-section,
+    .team-section,
+    .portfolio-section {
+        padding: 120px 0;
+    }
+
+    .description-title {
+        text-align: left;
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .team-main-list,
+    .description-list {
+        gap: 24px;
+    }
+
+    .footer-container {
+        align-items: baseline;
+    }
+
+    .footer-webstudio-box,
+    .footer-socials {
+        margin-right: 80px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .bottom-form-wrapper {
+        text-align: left;
+    }
+
+    .footer {
+        padding: 100px 0;
+    }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+      url(../images/people-office-1158@2x.jpg);
+    }
+  }
   
+    .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
