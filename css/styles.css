@@ -964,6 +964,10 @@ header .container,
         height: auto;
     }
 
+    .container {
+        width: 766px;
+    }
+
     .contacts-list {
         flex-direction: column;
     }
@@ -1005,6 +1009,10 @@ header .container,
 
     .strategy-title {
         text-align: left;
+    }
+
+    .team-list {
+        gap: 64px 24px;
     }
 
     .team-list,
