@@ -782,3 +782,162 @@ footer {
 
 /* 6 hw */
 
+@media screen and (min-width: 320px) {
+    body {
+    overflow-x: hidden;
+    width: 100%;
+    }
+
+    .container { 
+        padding: 0 16px;
+        }
+
+    .icon-box,
+    .address,
+    .nav-list {
+        display: none;
+    }
+
+    .header>.container {
+        height: 56px;
+    }
+
+    .header-menu {
+        display: block;
+        padding: 16px 0;
+    }
+
+    .hero-title {
+        font-size: 36px;
+        margin-bottom: 48px;
+    }
+
+    .hero {
+        padding: 72px 0;
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-320.jpg);
+    }
+
+    .description-section,
+    .team-section,
+    .portfolio-section,
+    .footer {
+        padding: 96px 0;
+    }
+
+    .description-list,
+    .team-main-list,
+    .portfolio-list,
+    .bottom-form {
+        flex-direction: column;
+    }
+
+    .team-main-list,
+    .portfolio-list {
+        align-items: center;
+    }
+
+    .description-title {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 0;
+        font-weight: 700;
+    }
+
+    .description-list,
+    .team-main-list {
+        gap: 72px;
+    }
+
+    .team-list {
+        max-width: 264px;
+    }
+
+    .portfolio-list-item {
+        width: auto;
+    }
+    
+    .footer-container {
+        align-items: center;
+    }
+
+    .footer-webstudio-box,
+    .footer-socials {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+
+    .bottom-form-wrapper {
+        text-align: center;
+    }
+
+    .footer-item {
+        text-align: start;
+    }
+
+    .bottom-form {
+        align-items: center;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        min-width: 320px;
+        height: 100vh;
+        padding: 72px 16px 40px;
+        position: fixed;
+        top: 0;
+        background-color: #FFF;
+    }
+
+    .mobile-menu-nav {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 168px;
+        flex: 1;
+    }
+
+    .mobile-studio {
+        color: #404BBF;
+    }
+
+    .mobile-contacts-list {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+        flex: 0;
+    }
+
+    .mobile-phone {
+        color: #4D5AE5;
+    }
+
+    .mobile-menu-contacts {
+        margin-bottom: 48px;
+    }
+
+    .mobile-contacts-item {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .mobile-socials-list {
+        display: flex;
+        gap: 40px;
+        flex: 0;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+    .solutions {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+      url(../images/people-office-320@2x.jpg);
+    }
+  }
