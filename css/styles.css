@@ -1012,7 +1012,12 @@ footer {
         text-align: left;
     }
 
-    .team-main-list,
+    .team-main-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .portfolio-list {
         flex-direction: row;
         flex-wrap: wrap;
